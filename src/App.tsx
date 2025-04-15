@@ -1,9 +1,10 @@
-import { Dashboard } from "./pages/Dashboard"
+
+import IndexRoute from "./routes"
 
 function App() {
 
   return (
-    <Dashboard />
+    <IndexRoute />
   )
 }
 

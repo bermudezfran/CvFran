@@ -1,4 +1,4 @@
-import React from "react";
+import '../../styled-components/layout.module.css';
 
 import { Navbar } from "../../components/header/Navbar";
 import { Footer } from "../../components/footer/Footer";
@@ -6,10 +6,12 @@ import { Outlet } from "react-router-dom";
 
 export const Layout = () => {
   return (
-    <>
+    <div className="layout">
       <Navbar />
-      <Outlet />
+      <main className="content">
+        <Outlet />
+      </main>
       <Footer />
-    </>
+    </div>
   );
 };
