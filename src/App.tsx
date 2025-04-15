@@ -1,10 +1,9 @@
+import { Dashboard } from "./pages/Dashboard"
 
 function App() {
 
   return (
-    <>
-    cv fran
-    </>
+    <Dashboard />
   )
 }
 
