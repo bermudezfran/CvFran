@@ -26,7 +26,7 @@ export const Navbar = () => {
                 isActive ? styles.active : styles.link
               }
             >
-              Inicio
+              Sobre mí
             </NavLink>
           </li>
           <li>
@@ -57,16 +57,6 @@ export const Navbar = () => {
               }
             >
               Cursos
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/contact"
-              className={({ isActive }) =>
-                isActive ? styles.active : styles.link
-              }
-            >
-              Contacto
             </NavLink>
           </li>
         </ul>

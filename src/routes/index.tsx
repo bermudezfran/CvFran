@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import { Contact } from "../pages/Contact";
 import { Dashboard } from "../pages/Dashboard";
 import { Studies } from "../pages/Studies";
 import { Courses } from "../pages/Courses";
@@ -14,7 +13,6 @@ export default function IndexRoute() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Dashboard />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/studies" element={<Studies />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/experience" element={<Experience />} />
