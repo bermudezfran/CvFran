@@ -1,0 +1,67 @@
+{
+    "navbar": {
+        "about": "Sobre mí",
+        "experience": "Experiencia",
+        "studies": "Educación",
+        "courses": "Certificaciones"
+    },
+    "dashboard": {
+        "title": "¡Hola! Soy Francisco Bermudez 👋",
+        "subtitle": "Desarrollador frontend y entusiasta de aplicaciones móviles",
+        "descripcionOne": "Estoy desarrollando mi carrera profesional en el mundo de la programación frontend y el desarrollo de aplicaciones móviles. Gracias a mi formación en comunicación, tengo una perspectiva única para diseñar interfaces que no solo se ven bien, sino que realmente conectan con el usuario.",
+        "descripcionTwo": "Tengo experiencia en tecnologías como HTML, CSS, JavaScript, y frameworks modernos como React, Next Js y React Native. Me apasiona combinar creatividad con tecnología para crear soluciones digitales innovadoras y funcionales.",
+        "descripcionThree": "Soy un aprendiz constante: siempre estoy explorando nuevas herramientas, buenas prácticas y tendencias del ecosistema web y mobile para seguir creciendo profesionalmente y aportar valor a cada proyecto en el que participo."
+    },
+    "experience": {
+        "title": "Experiencia Profesional",
+        "puesto": "Desarrollador Frontend",
+        "maxdream": {
+            "fecha": "Septiembre 2023 – Presente",
+            "tareas": [
+                "Desarrollando un sitio web con Next.js, Typescript y Tailwind CSS.",
+                "Desarrollando la aplicación móvil con React Native y Tailwind CSS.",
+                "Aplicando buenas prácticas y optimización de componentes para mayor escalabilidad.",
+                "Construyendo interfaces gráficas desde diseños en Figma."
+            ]
+        },
+        "mlm": {
+            "fecha": "Marzo 2023 – Febrero 2025",
+            "tareas": [
+                "Migrando la plataforma hacia React.js utilizando Typescript y Bootstrap.",
+                "Aplicando buenas prácticas y optimización de componentes para mayor escalabilidad.",
+                "Diseñando interfaces gráficas a partir de diseños implementados en Figma."
+            ]
+        }
+    },
+    "studies": {
+        "educationTitle": "Educación",
+        "degree": "Ciencias de la Comunicación",
+        "institution": "Universidad de Buenos Aires",
+        "date": "Mar 2016 – Feb 2024",
+        "languagesTitle": "Idiomas",
+        "spanish": "Español",
+        "english": "Inglés",
+        "native": "Nativo",
+        "level": "Nivel B1 (intermedio)"
+    },
+    "courses": {
+    "title": "Certificaciones",
+    "fullstack": {
+      "date": "Sep 2024 – Presente",
+      "description": "Programa enfocado en el desarrollo completo de aplicaciones web, cubriendo desde la creación de APIs con Node.js y bases de datos NoSQL, hasta el diseño de interfaces modernas con React. Incluye buenas prácticas, testing y despliegue en la nube."
+    },
+    "frontend": {
+      "date": "Sep 2022 – Dic 2022",
+      "description": "Curso intensivo de desarrollo frontend moderno, centrado en el uso de React y Next.js. Se abordan conceptos como componentes reutilizables, enrutamiento, consumo de APIs y estructura de proyectos escalables."
+    },
+    "analytics": {
+      "date": "Dic 2021 – Abr 2022",
+      "description": "Formación en análisis de datos aplicados a entornos empresariales. Incluye consultas avanzadas en SQL Server, generación de reportes y dashboards interactivos con Power BI para la toma de decisiones basada en datos."
+    },
+    "notFound": {
+    "message": "Lo sentimos, la página que estás buscando no existe.",
+    "button": "Volver al inicio"
+  }
+  },
+  "footer": "Francisco Bermudez. Todos los derechos reservados."
+}

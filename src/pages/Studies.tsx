@@ -1,26 +1,29 @@
+import { useTranslation } from 'react-i18next';
 import styles from './styles/studies.module.css';
 
 export const Studies = () => {
+  const { t } = useTranslation();
+
   return (
     <section className={styles.studies}>
-      <h1 className={styles.title}>Educación</h1>
+      <h1 className={styles.title}>{t('studies.educationTitle')}</h1>
 
       <div className={styles.section}>
-        <h2 className={styles.degree}>Ciencias de la Comunicación</h2>
-        <p className={styles.institution}>Universidad / Instituto</p>
-        <span className={styles.date}>Mar 2016 – Feb 2024</span>
+        <h2 className={styles.degree}>{t('studies.degree')}</h2>
+        <p className={styles.institution}>{t('studies.institution')}</p>
+        <span className={styles.date}>{t('studies.date')}</span>
       </div>
 
       <hr className={styles.divider} />
 
-      <h1 className={styles.title}>Idiomas</h1>
+      <h1 className={styles.title}>{t('studies.languagesTitle')}</h1>
 
       <ul className={styles.languageList}>
         <li>
-          <strong>Español:</strong> Nativo
+          <strong>{t('studies.spanish')}:</strong> {t('studies.native')}
         </li>
         <li>
-          <strong>Inglés:</strong> Nivel B1 (intermedio)
+          <strong>{t('studies.english')}:</strong> {t('studies.level')}
         </li>
       </ul>
     </section>

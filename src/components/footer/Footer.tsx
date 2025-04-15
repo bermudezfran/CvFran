@@ -1,12 +1,15 @@
+import { useTranslation } from "react-i18next";
 import styles from "../../styled-components/footer.module.css";
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
+
+  const { t } = useTranslation();
+  
   return (
     <footer className={styles.footer}>
       <p className={styles.copy}>
-        © {new Date().getFullYear()} Francisco Bermudez. Todos los derechos
-        reservados.
+        © {new Date().getFullYear()} {t('footer')}
       </p>
 
       <div className={styles.socials}>

@@ -1,16 +1,19 @@
+import { useTranslation } from 'react-i18next';
 import styles from './styles/courses.module.css';
 
 export const Courses = () => {
+  const { t } = useTranslation();
+
   return (
     <section className={styles.certifications}>
-      <h1 className={styles.title}>Certificaciones</h1>
+      <h1 className={styles.title}>{t('courses.title')}</h1>
 
+      {/* Fullstack */}
       <div className={styles.cert}>
         <h2 className={styles.company}>Fullstack Engineer</h2>
-        <p>Sep 2024 – Presente</p>
-        <p className={styles.description}>
-          Programa enfocado en el desarrollo completo de aplicaciones web, cubriendo desde la creación de APIs con Node.js y bases de datos NoSQL, hasta el diseño de interfaces modernas con React. Incluye buenas prácticas, testing y despliegue en la nube.
-        </p>
+        <p className={styles.institution}>Educación IT</p>
+        <p>{t('courses.fullstack.date')}</p>
+        <p className={styles.description}>{t('courses.fullstack.description')}</p>
         <div className={styles.badges}>
           <span>React Js</span>
           <span>Node Js</span>
@@ -19,24 +22,24 @@ export const Courses = () => {
         </div>
       </div>
 
+      {/* Frontend */}
       <div className={styles.cert}>
         <h2 className={styles.company}>Desarrollo Frontend</h2>
-        <p>Sep 2022 – Dic 2022</p>
-        <p className={styles.description}>
-          Curso intensivo de desarrollo frontend moderno, centrado en el uso de React y Next.js. Se abordan conceptos como componentes reutilizables, enrutamiento, consumo de APIs y estructura de proyectos escalables.
-        </p>
+        <p className={styles.institution}>Udemy</p>
+        <p>{t('courses.frontend.date')}</p>
+        <p className={styles.description}>{t('courses.frontend.description')}</p>
         <div className={styles.badges}>
           <span>React Js</span>
           <span>Next Js</span>
         </div>
       </div>
 
+      {/* Analytics */}
       <div className={styles.cert}>
         <h2 className={styles.company}>Data Analytics</h2>
-        <p>Dic 2021 – Abr 2022</p>
-        <p className={styles.description}>
-          Formación en análisis de datos aplicados a entornos empresariales. Incluye consultas avanzadas en SQL Server, generación de reportes y dashboards interactivos con Power BI para la toma de decisiones basada en datos.
-        </p>
+        <p className={styles.institution}>Coderhouse</p>
+        <p>{t('courses.analytics.date')}</p>
+        <p className={styles.description}>{t('courses.analytics.description')}</p>
         <div className={styles.badges}>
           <span>SQL Server</span>
           <span>Power BI</span>

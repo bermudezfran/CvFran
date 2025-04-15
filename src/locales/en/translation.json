@@ -1,0 +1,67 @@
+{
+    "navbar": {
+        "about": "About Me",
+        "experience": "Experience",
+        "studies": "Education",
+        "courses": "Certifications"
+    },
+    "dashboard": {
+        "title": "Hi! I'm Francisco Bermudez 👋",
+        "subtitle": "Frontend Developer & Mobile App Enthusiast",
+        "descripcionOne": "I am developing my professional career in the world of front-end programming and mobile app development. Thanks to my background in communications, I have a unique perspective for designing interfaces that not only look good, but also truly connect with the user.",
+        "descripcionTwo": "I have experience in technologies such as HTML, CSS, JavaScript, and modern frameworks such as React, Next Js, and React Native. I am passionate about combining creativity with technology to create innovative and functional digital solutions.",
+        "descripcionThree": "I am a constant learner: I am always exploring new tools, best practices, and trends in the web and mobile ecosystem to continue growing professionally and adding value to every project I participate in."
+    },
+    "experience": {
+        "title": "Professional Experience",
+        "puesto": "Frontend Developer",
+        "maxdream": {
+            "fecha": "September 2023 – Present",
+            "tareas": [
+                "Developing a website using Next.js, Typescript and Tailwind CSS.",
+                "Building a mobile app with React Native and Tailwind CSS.",
+                "Applying best practices and optimizing components for scalability.",
+                "Designing graphical interfaces based on Figma designs."
+            ]
+        },
+        "mlm": {
+            "fecha": "March 2023 – February 2025",
+            "tareas": [
+                "Migrating the platform to React.js using Typescript and Bootstrap.",
+                "Applying best practices and optimizing components for scalability.",
+                "Designing graphical interfaces based on Figma layouts."
+            ]
+        }
+    },
+    "studies": {
+        "educationTitle": "Education",
+        "degree": "Communication Sciences",
+        "institution": "University of Buenos Aires",
+        "date": "Mar 2016 – Feb 2024",
+        "languagesTitle": "Languages",
+        "spanish": "Spanish",
+        "english": "English",
+        "native": "Native",
+        "level": "B1 Level (intermediate)"
+    },
+    "courses": {
+        "title": "Certifications",
+        "fullstack": {
+            "date": "Sep 2024 – Present",
+            "description": "Program focused on full-stack web application development, covering backend APIs with Node.js and NoSQL databases, as well as modern frontend interfaces with React. Includes best practices, testing, and deployment."
+        },
+        "frontend": {
+            "date": "Sep 2022 – Dec 2022",
+            "description": "Intensive modern frontend development course focused on React and Next.js. Covered concepts like reusable components, routing, API consumption, and scalable project structures."
+        },
+        "analytics": {
+            "date": "Dec 2021 – Apr 2022",
+            "description": "Training in business data analysis. Included advanced SQL Server queries, report generation, and interactive dashboards with Power BI for data-driven decision making."
+        }
+    },
+    "notFound": {
+        "message": "Sorry, the page you are looking for does not exist.",
+        "button": "Go back to home"
+    },
+    "footer": "Francisco Bermudez. All rights reserved."
+}

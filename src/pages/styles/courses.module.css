@@ -7,14 +7,13 @@
 .title {
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 2rem;
   text-align: center;
 }
 
 .company {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #ed1c42;
+  color: #a8354a;
   text-align: center;
 }
 
@@ -38,3 +37,9 @@
     flex-direction: column;
     align-items: flex-start;
 }
+
+.institution {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.2rem;
+  }

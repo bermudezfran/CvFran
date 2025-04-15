@@ -1,8 +1,16 @@
 import styles from '../../styled-components/navbar.module.css';
 import { NavLink } from 'react-router-dom';
 import Perfil from '../../assets/fotoperfiluser.jpg';
+import { useTranslation } from 'react-i18next';
 
 export const Navbar = () => {
+  const { t, i18n } = useTranslation();
+
+  const toggleLanguage = () => {
+    const newLang = i18n.language === 'es' ? 'en' : 'es';
+    i18n.changeLanguage(newLang);
+  };
+
   return (
     <header className={styles.navbar}>
       <div className={styles.profile}>
@@ -26,7 +34,7 @@ export const Navbar = () => {
                 isActive ? styles.active : styles.link
               }
             >
-              Sobre mí
+              {t('navbar.about')}
             </NavLink>
           </li>
           <li>
@@ -36,7 +44,7 @@ export const Navbar = () => {
                 isActive ? styles.active : styles.link
               }
             >
-              Experiencia
+              {t('navbar.experience')}
             </NavLink>
           </li>
           <li>
@@ -46,7 +54,7 @@ export const Navbar = () => {
                 isActive ? styles.active : styles.link
               }
             >
-              Educación
+              {t('navbar.studies')}
             </NavLink>
           </li>
           <li>
@@ -56,8 +64,14 @@ export const Navbar = () => {
                 isActive ? styles.active : styles.link
               }
             >
-              Cursos
+              {t('navbar.courses')}
             </NavLink>
+          </li>
+
+          <li>
+            <button onClick={toggleLanguage} className={styles.langBtn}>
+              {i18n.language === 'es' ? 'EN' : 'ES'}
+            </button>
           </li>
         </ul>
       </nav>
