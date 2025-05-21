@@ -8,9 +8,9 @@
     "dashboard": {
         "title": "Hi! I'm Francisco Bermudez 👋",
         "subtitle": "Frontend Developer & Mobile App Enthusiast",
-        "descripcionOne": "I am developing my professional career in the world of front-end programming and mobile app development. Thanks to my background in communications, I have a unique perspective for designing interfaces that not only look good, but also truly connect with the user.",
-        "descripcionTwo": "I have experience in technologies such as HTML, CSS, JavaScript, and modern frameworks such as React, Next Js, and React Native. I am passionate about combining creativity with technology to create innovative and functional digital solutions.",
-        "descripcionThree": "I am a constant learner: I am always exploring new tools, best practices, and trends in the web and mobile ecosystem to continue growing professionally and adding value to every project I participate in."
+        "descripcionOne": "I develop my career as a specialist in Frontend and mobile applications, bringing a strategic vision thanks to my background in Communication to design attractive, intuitive, and functional interfaces.",
+        "descripcionTwo": "I have solid experience in HTML5, CSS3, and JavaScript, as well as modern frameworks like React.js and React Native, and component libraries like Material-UI (MUI). Additionally, I integrate AI tools to optimize prototypes and workflows.",
+        "descripcionThree": "My role encompasses both technical implementation and product definition and strategic planning, ensuring that each version meets business objectives and provides a consistent and scalable user experience."
     },
     "experience": {
         "title": "Professional Experience",

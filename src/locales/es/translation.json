@@ -8,9 +8,9 @@
     "dashboard": {
         "title": "¡Hola! Soy Francisco Bermudez 👋",
         "subtitle": "Desarrollador frontend y entusiasta de aplicaciones móviles",
-        "descripcionOne": "Estoy desarrollando mi carrera profesional en el mundo de la programación frontend y el desarrollo de aplicaciones móviles. Gracias a mi formación en comunicación, tengo una perspectiva única para diseñar interfaces que no solo se ven bien, sino que realmente conectan con el usuario.",
-        "descripcionTwo": "Tengo experiencia en tecnologías como HTML, CSS, JavaScript, y frameworks modernos como React, Next Js y React Native. Me apasiona combinar creatividad con tecnología para crear soluciones digitales innovadoras y funcionales.",
-        "descripcionThree": "Soy un aprendiz constante: siempre estoy explorando nuevas herramientas, buenas prácticas y tendencias del ecosistema web y mobile para seguir creciendo profesionalmente y aportar valor a cada proyecto en el que participo."
+        "descripcionOne": "Desarrollo mi carrera como especialista en Frontend y en aplicaciones móviles, aportando una visión estratégica gracias a mi formación en Comunicación para diseñar interfaces atractivas, intuitivas y funcionales.",
+        "descripcionTwo": "Cuento con sólida experiencia en HTML5, CSS3 y JavaScript, así como en frameworks modernos como React.js y React Native, y bibliotecas de componentes como Material-UI (MUI). Además, incorporo herramientas de IA para optimizar prototipos y flujos de trabajo.",
+        "descripcionThree": "Mi rol abarca tanto la implementación técnica como la definición del producto y la planificación estratégica, asegurando que cada versión cumpla objetivos de negocio y ofrezca una experiencia de usuario coherente y escalable."
     },
     "experience": {
         "title": "Experiencia Profesional",
