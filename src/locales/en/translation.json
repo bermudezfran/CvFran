@@ -10,11 +10,13 @@
         "subtitle": "Frontend Developer & Mobile App Enthusiast",
         "descripcionOne": "I develop my career as a specialist in Frontend and mobile applications, bringing a strategic vision thanks to my background in Communication to design attractive, intuitive, and functional interfaces.",
         "descripcionTwo": "I have solid experience in HTML5, CSS3, and JavaScript, as well as modern frameworks like React.js and React Native, and component libraries like Material-UI (MUI). Additionally, I integrate AI tools to optimize prototypes and workflows.",
-        "descripcionThree": "My role encompasses both technical implementation and product definition and strategic planning, ensuring that each version meets business objectives and provides a consistent and scalable user experience."
+        "descripcionThree": "My role encompasses both technical implementation and product definition and strategic planning, ensuring that each version meets business objectives and provides a consistent and scalable user experience.",
+        "downloadCV": "Download CV"
     },
     "experience": {
         "title": "Professional Experience",
         "puesto": "Frontend Developer",
+        "puesto2": "Media Analyst",
         "maxdream": {
             "fecha": "September 2023 – Present",
             "tareas": [
@@ -30,6 +32,14 @@
                 "Migrating the platform to React.js using Typescript and Bootstrap.",
                 "Applying best practices and optimizing components for scalability.",
                 "Designing graphical interfaces based on Figma layouts."
+            ]
+        },
+        "bb": {
+            "fecha": "Enero 2022 – Abril 2023",
+            "tareas": [
+                "Market study of OTT platforms.",
+                "Dataset generation focused on platforms worldwide.",
+                "Development of informative and interactive dashboards to showcase the obtained data."
             ]
         }
     },

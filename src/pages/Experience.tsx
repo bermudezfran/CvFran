@@ -43,6 +43,22 @@ export const Experience = () => {
           <span>Figma</span>
         </div>
       </div>
+
+      <div className={styles.job}>
+        <h2 className={styles.company}>BB Media</h2>
+        <p className={styles.role}>{t('experience.puesto2')}</p>
+        <span className={styles.date}>{t('experience.bb.fecha')}</span>
+        <ul className={styles.list}>
+          <li>{t('experience.bb.tareas.0')}</li>
+          <li>{t('experience.bb.tareas.1')}</li>
+          <li>{t('experience.bb.tareas.2')}</li>
+        </ul>
+        <div className={styles.techs}>
+          <span>Excel</span>
+          <span>SQL</span>
+          <span>Power BI</span>
+        </div>
+      </div>
     </section>
   );
 };

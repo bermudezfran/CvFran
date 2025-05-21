@@ -11,6 +11,7 @@ export const Dashboard = () => {
       <p className={styles.subtitle}>
         {t('dashboard.subtitle')}
       </p>
+      
 
       <p className={styles.description}>
         {t('dashboard.descripcionOne')}

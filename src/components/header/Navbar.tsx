@@ -22,6 +22,9 @@ export const Navbar = () => {
         <div className={styles.nameBlock}>
           <h1 className={styles.name}>Francisco Bermudez</h1>
           <p className={styles.role}>Frontend Developer</p>
+          <a className={styles.download} href="/Francisco_Bermudez_resume.pdf" download={"Francisco_Bermudez_CV.pdf"}>
+            {t('dashboard.downloadCV')}
+          </a>
         </div>
       </div>
 

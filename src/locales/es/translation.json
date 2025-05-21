@@ -10,11 +10,13 @@
         "subtitle": "Desarrollador frontend y entusiasta de aplicaciones móviles",
         "descripcionOne": "Desarrollo mi carrera como especialista en Frontend y en aplicaciones móviles, aportando una visión estratégica gracias a mi formación en Comunicación para diseñar interfaces atractivas, intuitivas y funcionales.",
         "descripcionTwo": "Cuento con sólida experiencia en HTML5, CSS3 y JavaScript, así como en frameworks modernos como React.js y React Native, y bibliotecas de componentes como Material-UI (MUI). Además, incorporo herramientas de IA para optimizar prototipos y flujos de trabajo.",
-        "descripcionThree": "Mi rol abarca tanto la implementación técnica como la definición del producto y la planificación estratégica, asegurando que cada versión cumpla objetivos de negocio y ofrezca una experiencia de usuario coherente y escalable."
+        "descripcionThree": "Mi rol abarca tanto la implementación técnica como la definición del producto y la planificación estratégica, asegurando que cada versión cumpla objetivos de negocio y ofrezca una experiencia de usuario coherente y escalable.",
+        "downloadCV": "Descargar CV"
     },
     "experience": {
         "title": "Experiencia Profesional",
         "puesto": "Desarrollador Frontend",
+        "puesto2": "Analista de medios",
         "maxdream": {
             "fecha": "Septiembre 2023 – Presente",
             "tareas": [
@@ -30,6 +32,14 @@
                 "Migrando la plataforma hacia React.js utilizando Typescript y Bootstrap.",
                 "Aplicando buenas prácticas y optimización de componentes para mayor escalabilidad.",
                 "Diseñando interfaces gráficas a partir de diseños implementados en Figma."
+            ]
+        },
+        "bb": {
+            "fecha": "Enero 2022 – Abril 2023",
+            "tareas": [
+                "Estudio de mercado de plataformas OTT.",
+                "Generación de datasets enfocado en las plataformas a nivel mundial.",
+                "Elaboración de dashboards informativos e interactivos para enseñar los datos obtenidos."
             ]
         }
     },

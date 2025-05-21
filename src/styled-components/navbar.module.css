@@ -92,3 +92,24 @@
     margin-top: 10px;
     margin-right: 10px;
   }
+
+  .download {
+  cursor: pointer;
+  color: #666666;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 
+    color 0.2s ease,       /* transición suave al cambiar color */
+    transform 0.1s ease;   /* transición rápida al escalar */
+}
+
+.download:hover {
+  color: #111111;          /* color más oscuro al pasar el ratón */
+  text-decoration: underline;
+  transform: scale(1.05);  /* ligero “zoom” suave */
+}
+
+.download:active {
+  color: #333333;          /* un poquitín menos oscuro al hacer clic */
+  transform: scale(0.95);  /* pequeño “hundimiento” al presionar */
+}
